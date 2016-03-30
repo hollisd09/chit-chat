@@ -1,16 +1,18 @@
 doctype
 html
   head
-    title= "Real time web chat"
+    title= "Chit Chat"
     script(src='/chat.js')
     script(src='/socket.io/socket.io.js')
     script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
+    link(rel='stylesheet', href='style.css')
   body
-    #content(style='width: 500px; height: 300px; margin: 0 0 20px 0; border: solid 1px #999; overflow-y: scroll;')
+    h1#title Chit Chat!
+    #content
     .controls
-      | Name:
-      input#name(style='width:350px;')
+      input#name(autofocus, placeholder= 'Name')
       br
-      input#field(style='width:350px;')
+      input#field(placeholder= 'Message')
+      br
       input#send(type='button', value='send')
 

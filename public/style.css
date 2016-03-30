@@ -1,0 +1,30 @@
+#content {
+  width: 75%;
+  height: 500px;
+  padding: 8px;
+  margin: 40px auto 0 auto;
+  border: solid 1px #999;
+  overflow-y: scroll;
+}
+
+#title {
+  text-align: center
+}
+
+.controls {
+  margin: auto;
+  text-align: center;
+}
+
+#name {
+  width: 350px;
+  margin: 10px 0 7px 0;
+}
+
+#field {
+  width: 350px;
+}
+
+#send {
+  margin-top: 7px;
+}
